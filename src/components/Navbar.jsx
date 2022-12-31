@@ -42,7 +42,7 @@ function Navbar() {
 
   return (
     // text-white flex justify-between items-center max-w-[1240px] mx-auto px-5 h-24
-    <div className='flex justify-between items-center text-dark-grayish-blue max-w-[1180px] mx-auto h-40 mt-20 bg-off-white'>
+    <div className='flex justify-between items-center text-dark-grayish-blue max-w-[1180px] mx-auto h-40 mt-[55px] bg-off-white'>
       <a href="/"><img className='md:w-18 mx-2' src={Logo} alt="" /></a>
       
       <ul className='md:flex hidden md:mr-10'>

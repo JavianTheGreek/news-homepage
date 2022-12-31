@@ -37,9 +37,9 @@ const Featured = () => {
                 <div className="flex">
                     <img src={img} alt={title} className='w-[130px] md:w-[110px] object-contain' />
                     <div className='ml-4 md:ml-5'>
-                        <h2 className='text-grayish-blue text-3xl md:text-4xl font-bold'>{heading}</h2>
-                        <a href='/' className='py-6 text-very-dark-blue text-[18px] md:text-xl font-extrabold hover:text-soft-red duration-300 ease-in-out '>{title}</a>
-                        <p className='text-sm md:text-xs text-dark-grayish-blue'>{description}</p>
+                        <h2 className='text-grayish-blue text-3xl md:text-4xl font-bold mb-4'>{heading}</h2>
+                        <a href='/' className=' text-very-dark-blue text-[18px] md:text-xl font-extrabold hover:text-soft-red duration-300 ease-in-out '>{title}</a>
+                        <p className='text-sm md:text-[16px] text-dark-grayish-blue mt-4'>{description}</p>
                     </div>
                 </div>
            </div>

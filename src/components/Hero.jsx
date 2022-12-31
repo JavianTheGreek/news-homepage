@@ -23,7 +23,7 @@ function Hero() {
                 {/* <img src={DesktopImage} alt="" className='' /> */}
                 <div className="flex md:mt-8 flex-col md:flex-row">
                     <div className="">
-                        <h1 className='text-black font-extrabold text-5xl w-atuo'>The Bright Future of Web 3.0?</h1>
+                        <h1 className='text-black font-extrabold text-6xl w-atuo'>The Bright Future of Web 3.0?</h1>
                     </div>
                     <div className=" md:px-2  md:ml-10">
                         <p className='text-dark-grayish-blue text-xl md:text-sm my-4'>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?</p>
