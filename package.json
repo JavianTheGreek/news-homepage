@@ -1,6 +1,6 @@
 {
   "homepage": "http://JavianTheGreek.github.io/news-homepage",
-  "name": "news-homepage-main",
+  "name": "news-homepage",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
