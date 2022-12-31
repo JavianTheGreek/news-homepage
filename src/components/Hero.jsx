@@ -12,7 +12,7 @@ function Hero() {
 
     return (
         // THis hero section, grid is used to follow the layout format.
-        <div className='w-full max-w-[960px] mx-auto grid md:grid-cols-6 px-2 gap-[1.5rem]'>
+        <div className='w-full max-w-[1180px] mx-auto grid md:grid-cols-6 px-2 gap-[1.5rem]'>
             
             {/* Left side of the hero template */}
             
@@ -34,7 +34,7 @@ function Hero() {
 
             {/* Right side of the hero template */}
 
-            <div className="mx-auto w-full" id='new'>
+            <div className="mx-auto w-full md:ml-6" id='new'>
                 <div className='bg-very-dark-blue p-4 my-[50px] md:my-0 md:w-[300px] h-auto'>
                     {/* Heading for the right Container */}
                     <h2 className='text-4xl font-bold text-soft-orange'>New</h2>
